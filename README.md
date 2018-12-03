@@ -5,12 +5,14 @@
 - pip
 
 ## Install
-- pip install requirement.txt
-
+`python
+pip install requirement.txt
+`
 ## Usage
 `
 python yolo_opencv.py --image /path/to/input/image --config /path/to/config/file --weights /path/to/weights/file --classes /path/to/classes/file
 `
+## Example
 
 `$ python yolo_opencv.py --image dog.jpg --config yolov3.cfg --weights yolov3.weights --classes yolov3.txt`
 
